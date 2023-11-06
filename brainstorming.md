@@ -36,5 +36,5 @@
 - Habit: Could help people cook more because their recipes are organized. 
 - Scope: Basic app would be useful with a lot of potential future features.
 
-## App Chosen: Basketball shot tracker
+### App Chosen: Basketball shot tracker
 
