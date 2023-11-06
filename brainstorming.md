@@ -1,7 +1,5 @@
 # Brainstorming
 
-## Ideas
-
 ## 6 Ideas
 - Basketball shot tracker - allow user to track and see stats about their basketball workouts.
 - Guitar song tracker - allow user to create a list of songs that they want to learn, find a way to give more info to user.
