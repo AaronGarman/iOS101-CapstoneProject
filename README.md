@@ -32,15 +32,16 @@
 - [x] User can view entries.
 - [ ] User can view details about entries.
 - [ ] User can see statistics about all entries.
+- [ ] Entries will be saved using local persistence.
 
 **Optional Nice-to-have Stories**
-- [ ] User can update entries
-- [ ] User can delete entries
+- [ ] User can update entries.
+- [ ] User can delete entries.
 
 ### 2. Screen Archetypes
 
 - [x] Entries screen
-* User can view entries
+* User can view entries.
 - [ ] Add Entry screen
 * User can create entries.
 - [ ] Details screen
@@ -83,23 +84,25 @@
 ## Sprint Planning
 
 ### Main Features
-- Entries screen with Tableview of entries
-- Stats screen with statistical details about all entries
-- Details screen that shows all parts of each entry
-- Add Entry screen that allows user to create an entry
-- Local data persistence
+- Entries screen with Tableview of entries.
+- Stats screen with statistical details about all entries.
+- Details screen that shows all parts of each entry.
+- Add Entry screen that allows user to create an entry.
+- Local data persistence.
 
 ### Sprint 1
-- Setup basis of project
-- Create layout of screens and create objects/files needed
-- Entries screen with Tableview of entries
+- Setup basis of project.
+- Create layout of screens and create objects/files needed.
+- Entries screen with Tableview of entries.
 
 #### Post Sprint 1 Update
 
-Was able to create all of the above features, no major errors were encountered. The framework for sprint 2 has been laid out, which I will do this week.
+Was able to create all of the above features, no major errors were encountered. The framework for sprint 2 has been laid out, which I will do this week. My first goal will be to create the screen that allows users to create entries, and once that is complete I will focus on building the stats and details screens after. I would like to be able to implement some of the stretch features like updating and deleting entries if time permits.
+
+<img src='ProjCapstoneWalkthrough.gif' title='Proj Capstone Sprint 1 Walkthrough gif' width='' alt='Video Walkthrough' />
 
 ### Sprint 2
-- Stats screen with statistical details about all entries
-- Details screen that shows all parts of each entry
-- Add Entry screen that allows user to create an entry
-- Local data persistence
+- Stats screen with statistical details about all entries.
+- Details screen that shows all parts of each entry.
+- Add Entry screen that allows user to create an entry.
+- Local data persistence.
