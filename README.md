@@ -28,18 +28,18 @@
 
 **Required Must-have Stories**
 
-[ ] User can create entries.
-[x] User can view entries.
-[ ] User can view details about entries.
-[ ] User can see statistics about all entries.
+- [ ] User can create entries.
+- [x] User can view entries.
+- [ ] User can view details about entries.
+- [ ] User can see statistics about all entries.
 
 **Optional Nice-to-have Stories**
-[ ] User can update entries
-[ ] User can delete entries
+- [ ] User can update entries
+- [ ] User can delete entries
 
 ### 2. Screen Archetypes
 
-- [ ] Entries screen
+- [x] Entries screen
 * User can view entries
 - [ ] Add Entry screen
 * User can create entries.
