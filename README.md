@@ -66,7 +66,9 @@
 
 ## Wireframes
 
-<img src="https://github.com/AaronGarman/iOS101-CapstoneProject/blob/main/2023-11-07%2001-25.pdf" width=600>
+<img src="2023-11-07 01-25.pdf" width=600>
+
+![](2023-11-07 01-25.pdf)
 
 ## Schema 
 
