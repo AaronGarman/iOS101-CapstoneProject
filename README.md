@@ -29,22 +29,22 @@
 **Required Must-have Stories**
 
 [ ] User can create entries.
-[ ] User can view entries and details about them.
+[x] User can view entries.
+[ ] User can view details about entries.
 [ ] User can see statistics about all entries.
 
 **Optional Nice-to-have Stories**
-
 [ ] User can update entries
 [ ] User can delete entries
 
 ### 2. Screen Archetypes
 
 - [ ] Entries screen
-* User can view entries and details about them.
+* User can view entries
 - [ ] Add Entry screen
 * User can create entries.
 - [ ] Details screen
-* User can view entries and details about them.
+* User can view details about entries.
 - [ ] Stats screen
 * User can see statistics about all entries.
 
@@ -60,6 +60,8 @@
 - [ ] Entries screen
 * Clicking on entry will bring up details screen.
 * Clicking add button will lead to entry creation screen.
+- [ ] Details screen
+* Clicking done after completing entry will go back to Entries screen.
 
 ## Wireframes
 
@@ -77,3 +79,25 @@
 ### Networking
 
 - N/A
+
+## Sprint Planning
+
+### Main Features
+- Entries screen with Tableview of entries
+- Stats screen with statistical details about all entries
+- Details screen that shows all parts of each entry
+- Add Entry screen that allows user to create an entry
+- Local data persistence
+
+#### Sprint 1
+- Setup basis of project
+- Create layout of screens and create objects/files needed
+- Entries screen with Tableview of entries
+
+**Post sprint update:** was able to create all of the above features, no major errors were encountered. The framework for sprint 2 has been laid out, which I will do this week.
+
+#### Sprint 2
+- Stats screen with statistical details about all entries
+- Details screen that shows all parts of each entry
+- Add Entry screen that allows user to create an entry
+- Local data persistence
