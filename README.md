@@ -66,8 +66,7 @@
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="2023-11-07 01-25.pdf" width=600>
+<img src="2023-11-07 01-25.pdf" >
 
 ## Schema 
 
