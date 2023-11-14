@@ -1,0 +1,34 @@
+ENTRIES VIEW CONTROLLER
+
+DETAIL VIEW CONTROLLER
+
+STATS VIEW CONTROLLER
+-maybe break up into sep funcs - put stuff as member data?
+
+ENTRY
+
+ENTRY CELL
+
+----------
+
+UI
+-add constraints + stack view - see week 3 lab
+
+ADD ENTRY
+-pop up button fig
+
+GENERAL
+
+EXTRA
+-comments in + out
+-clean up code
+
+----------
+
+PUSH TO LATER
+-change name entry to workout or other? or on app call it entries?
+-change shot total name to shots attempted?
+-change name of main view controller?
+
+-Full entry error checking
+-update: maybe fig? put edit button in detail view? eh
