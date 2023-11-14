@@ -28,25 +28,25 @@
 
 **Required Must-have Stories**
 
-- [ ] User can create entries.
+- [x] User can create entries.
 - [x] User can view entries.
-- [ ] User can view details about entries.
-- [ ] User can see statistics about all entries.
-- [ ] Entries will be saved using local persistence.
+- [x] User can view details about entries.
+- [x] User can see statistics about all entries.
+- [x] Entries will be saved using local persistence.
 
 **Optional Nice-to-have Stories**
 - [ ] User can update entries.
-- [ ] User can delete entries.
+- [x] User can delete entries.
 
 ### 2. Screen Archetypes
 
 - [x] Entries screen
 * User can view entries.
-- [ ] Add Entry screen
+- [x] Add Entry screen
 * User can create entries.
-- [ ] Details screen
+- [x] Details screen
 * User can view details about entries.
-- [ ] Stats screen
+- [x] Stats screen
 * User can see statistics about all entries.
 
 ### 3. Navigation
@@ -58,10 +58,10 @@
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Entries screen
+- [x] Entries screen
 * Clicking on entry will bring up details screen.
 * Clicking add button will lead to entry creation screen.
-- [ ] Details screen
+- [x] Details screen
 * Clicking done after completing entry will go back to Entries screen.
 
 ## Wireframes
@@ -69,8 +69,6 @@
 <img src="2023-11-07 01-25.pdf" width="600" />
 
 ## Schema 
-
-[This section will be completed in Unit 9]
 
 ### Models
 
@@ -105,3 +103,10 @@ Was able to create all of the above features, no major errors were encountered. 
 - Details screen that shows all parts of each entry.
 - Add Entry screen that allows user to create an entry.
 - Local data persistence.
+
+This sprint was a lot of work, but I was able to mostly complete all of the features above. The stats screen does show stats about user entered data, the details screen gives users more info about each entry in the tableview, and local data persistence is used to store the data. The add entry screen does allow users to enter new entries, but I had trouble figuring out a certain button layout for one of the attributes. Besides that, all went well. In spring 3 I will figure out the rest of that button and will make finishing touches to the app and decide if any other features are needed. 
+
+<img src='ProjCapstoneSprint2Walkthrough.gif' title='Proj Capstone Sprint 2 Walkthrough gif' width='' alt='Video Walkthrough' />
+
+### Sprint 3
+-Clean up app and make finishing touches
