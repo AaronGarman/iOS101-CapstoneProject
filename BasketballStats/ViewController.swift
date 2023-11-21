@@ -31,6 +31,18 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         formatColors(percent, cell)
         
+        // background below
+        
+        //let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        //backgroundImage.image = UIImage(named: "orange-gradient-background-4mrscmzizrhbutno")
+        //backgroundImage.image = UIImage(named: "IMG_8016")
+        //backgroundImage.contentMode = UIViewContentMode.scaleAspectfill
+        //self.view.insertSubview(backgroundImage, at: 0)
+        //cell.backgroundView = backgroundImage
+        
+        // background above
+        
+        
         return cell
     }
     
@@ -74,6 +86,20 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         entriesTableView.reloadData() //-- where fig put this? after entry?
         //entriesTableView.reloadSections(IndexSet(integer: 0), with: .automatic)
+        
+        
+        // background below
+        
+        //entriesTableView.backgroundColor = .systemOrange
+        
+        //let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        //backgroundImage.image = UIImage(named: "orange-gradient-background-4mrscmzizrhbutno")
+        //backgroundImage.image = UIImage(named: "IMG_8016")
+        //backgroundImage.contentMode = UIViewContentMode.scaleAspectfill
+        //self.view.insertSubview(backgroundImage, at: 0)
+        //entriesTableView.backgroundView = backgroundImage
+        
+        // background above
         
     }
     
@@ -139,7 +165,7 @@ class ViewController: UIViewController, UITableViewDataSource {
                 inputCell.percentLabel.textColor = .green
             }
             else if (inputPercent >= 50) {
-                inputCell.percentLabel.textColor = .systemYellow
+                inputCell.percentLabel.textColor = .systemYellow  // change back*** or change rest if background
             }
             else {
                 inputCell.percentLabel.textColor = .red

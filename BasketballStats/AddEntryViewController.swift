@@ -22,15 +22,17 @@ class AddEntryViewController: UIViewController {
     @IBAction func didTapAddButton(_ sender: Any) {
         var shotsMade = 0
         var shotsAttempted = 0
+        var shotsType = ""
         var notes = ""
         
         shotsMade = Int(shotsMadeInput.text ?? "0") ?? 0
         shotsAttempted = Int(shotsAttemptedInput.text ?? "1") ?? 1
+        shotsType = shotTypeButton.titleLabel?.text ?? "none"
         notes = notesInput.text ?? ""
         
         //statsEntries.append(Entry(shotsMade: shotsMade, shotsTotal: shotsAttempted, shotsType: "empty", note: notes))
-        
-        let newEntry = Entry(shotsMade: shotsMade, shotsTotal: shotsAttempted, shotsType: "Freethrows", note: notes)
+        let newEntry = Entry(shotsMade: shotsMade, shotsTotal: shotsAttempted, shotsType: shotsType, note: notes)
+        //let newEntry = Entry(shotsMade: shotsMade, shotsTotal: shotsAttempted, shotsType: "Freethrows", note: notes)
         //newEntry.addToSavedEntries()
         //print(Entry.getEntries(forKey: Entry.savedEntriesKey))
         
@@ -46,6 +48,8 @@ class AddEntryViewController: UIViewController {
     
     //var statsEntries: [Entry] = []
     
+    var buttonElements: [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -58,6 +62,35 @@ class AddEntryViewController: UIViewController {
         //notesInput.layer.borderWidth = 1
         
         //statsEntries = Entry.getEntries(forKey: Entry.savedEntriesKey)
+        
+        buttonElements.append("Layups")
+        buttonElements.append("Freethrows")
+        buttonElements.append("Midrange")
+        buttonElements.append("Threes")
+        
+        popUpButtonInit()
 
+    }
+    
+    private func popUpButtonInit() {
+        let optionClosure = {(action: UIAction) in
+                    print(action.title)
+                }
+
+        var optionsArray = [UIAction]()
+
+        for element in buttonElements {
+            let action = UIAction(title: element, state: .off, handler: optionClosure)
+            optionsArray.append(action)
+        }
+                
+        optionsArray[0].state = .on
+        let optionsMenu = UIMenu(title: "", options: .displayInline, children: optionsArray)
+                
+        shotTypeButton.menu = optionsMenu
+
+        shotTypeButton.changesSelectionAsPrimaryAction = true
+        shotTypeButton.showsMenuAsPrimaryAction = true
+        
     }
 }

@@ -3,7 +3,7 @@ ENTRIES VIEW CONTROLLER
 DETAIL VIEW CONTROLLER
 
 STATS VIEW CONTROLLER
--maybe break up into sep funcs - put stuff as member data?
+
 
 ENTRY
 
@@ -12,16 +12,14 @@ ENTRY CELL
 ----------
 
 UI
--add constraints + stack view - see week 3 lab
+-add constraints + stack view - see week 3 lab - pics of pre measure? rewatch lec n lab? do all stacks
 
 ADD ENTRY
--pop up button fig
 
 GENERAL
 
 EXTRA
--comments in + out
--clean up code
+
 
 ----------
 
@@ -32,3 +30,8 @@ PUSH TO LATER
 
 -Full entry error checking
 -update: maybe fig? put edit button in detail view? eh
+-merge workout and entry names? 1 or the other?
+
+-maybe break up stuff into sep funcs - put stuff as member data?
+-comments in + out
+-clean up code
