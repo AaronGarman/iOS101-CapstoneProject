@@ -30,23 +30,13 @@ class AddEntryViewController: UIViewController {
         shotsType = shotTypeButton.titleLabel?.text ?? "none"
         notes = notesInput.text ?? ""
         
-        //statsEntries.append(Entry(shotsMade: shotsMade, shotsTotal: shotsAttempted, shotsType: "empty", note: notes))
         let newEntry = Entry(shotsMade: shotsMade, shotsTotal: shotsAttempted, shotsType: shotsType, note: notes)
-        //let newEntry = Entry(shotsMade: shotsMade, shotsTotal: shotsAttempted, shotsType: "Freethrows", note: notes)
-        //newEntry.addToSavedEntries()
-        //print(Entry.getEntries(forKey: Entry.savedEntriesKey))
         
         onAddEntry?(newEntry)
-        //onAddStatsEntry?(newEntry)
         dismiss(animated: true)
     }
     
-    var onAddEntry: ((Entry) -> Void)? = nil  // for testing reload closure
-    //var onAddStatsEntry: ((Entry) -> Void)? = nil // for reload in stats
-    
-    // to load entries from user defaults
-    
-    //var statsEntries: [Entry] = []
+    var onAddEntry: ((Entry) -> Void)? = nil
     
     var buttonElements: [String] = []
     
@@ -55,13 +45,6 @@ class AddEntryViewController: UIViewController {
         
         shotTypeButton.layer.cornerRadius = 20.0
         shotTypeButton.layer.masksToBounds = true
-        //shotTypeButton.layer.borderColor = UIColor.black.cgColor
-        //shotTypeButton.layer.borderWidth = 1
-        
-        //notesInput.layer.borderColor = UIColor.gray.cgColor
-        //notesInput.layer.borderWidth = 1
-        
-        //statsEntries = Entry.getEntries(forKey: Entry.savedEntriesKey)
         
         buttonElements.append("Layups")
         buttonElements.append("Freethrows")

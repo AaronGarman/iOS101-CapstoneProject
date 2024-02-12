@@ -31,18 +31,6 @@ class ViewController: UIViewController, UITableViewDataSource {
         
         formatColors(percent, cell)
         
-        // background below
-        
-        //let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        //backgroundImage.image = UIImage(named: "orange-gradient-background-4mrscmzizrhbutno")
-        //backgroundImage.image = UIImage(named: "IMG_8016")
-        //backgroundImage.contentMode = UIViewContentMode.scaleAspectfill
-        //self.view.insertSubview(backgroundImage, at: 0)
-        //cell.backgroundView = backgroundImage
-        
-        // background above
-        
-        
         return cell
     }
     
@@ -83,23 +71,7 @@ class ViewController: UIViewController, UITableViewDataSource {
             loadTestEntries() // do load from table instead once set
         }
         
-        
         entriesTableView.reloadData() //-- where fig put this? after entry?
-        //entriesTableView.reloadSections(IndexSet(integer: 0), with: .automatic)
-        
-        
-        // background below
-        
-        //entriesTableView.backgroundColor = .systemOrange
-        
-        //let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        //backgroundImage.image = UIImage(named: "orange-gradient-background-4mrscmzizrhbutno")
-        //backgroundImage.image = UIImage(named: "IMG_8016")
-        //backgroundImage.contentMode = UIViewContentMode.scaleAspectfill
-        //self.view.insertSubview(backgroundImage, at: 0)
-        //entriesTableView.backgroundView = backgroundImage
-        
-        // background above
         
     }
     

@@ -42,22 +42,6 @@ class DetailViewController: UIViewController {
         formatLabel(shotsAttemptedLabel)
         
         formatColors(percent)
-        
-        // background below
-        
-        //entriesTableView.backgroundColor = .systemOrange
-        
-        //let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        //backgroundImage.image = UIImage(named: "orange-gradient-background-4mrscmzizrhbutno")
-        //backgroundImage.image = UIImage(named: "IMG_8016")
-        //backgroundImage.contentMode = UIViewContentMode.scaleAspectfill
-        //self.view.insertSubview(backgroundImage, at: 0)
-        //view.backgroundView = backgroundImage
-        
-        // if keep these what if rounded orange button with black plus in middle in main view for add?
-        // image says has no file reference on hardwood?
-        
-        // background above
     }
     
     // adds borders to labels
