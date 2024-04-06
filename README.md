@@ -96,7 +96,7 @@
 
 Was able to create all of the above features, no major errors were encountered. The framework for sprint 2 has been laid out, which I will do this week. My first goal will be to create the screen that allows users to create entries, and once that is complete I will focus on building the stats and details screens after. I would like to be able to implement some of the stretch features like updating and deleting entries if time permits.
 
-<img src='ProjCapstoneWalkthrough.gif' title='Proj Capstone Sprint 1 Walkthrough gif' width='' alt='Video Walkthrough' />
+<img src='ProjCapstoneWalkthrough.gif' title='Proj Capstone Sprint 1 Walkthrough gif' height='600' width='300' alt='Video Walkthrough' />
 
 ### Sprint 2
 - Stats screen with statistical details about all entries.
