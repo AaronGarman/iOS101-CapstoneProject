@@ -96,7 +96,7 @@
 
 Was able to create all of the above features, no major errors were encountered. The framework for sprint 2 has been laid out, which I will do this week. My first goal will be to create the screen that allows users to create entries, and once that is complete I will focus on building the stats and details screens after. I would like to be able to implement some of the stretch features like updating and deleting entries if time permits.
 
-<img src='ProjCapstoneWalkthrough.gif' title='Proj Capstone Sprint 1 Walkthrough gif' height='600' width='300' alt='Video Walkthrough' />
+<img src='ProjCapstoneWalkthrough.gif' title='Proj Capstone Sprint 1 Walkthrough gif' height='650' width='300' alt='Video Walkthrough' />
 
 ### Sprint 2
 - Stats screen with statistical details about all entries.
@@ -106,11 +106,11 @@ Was able to create all of the above features, no major errors were encountered. 
 
 This sprint was a lot of work, but I was able to mostly complete all of the features above. The stats screen does show stats about user entered data, the details screen gives users more info about each entry in the tableview, and local data persistence is used to store the data. The add entry screen does allow users to enter new entries, but I had trouble figuring out a certain button layout for one of the attributes. Besides that, all went well. In spring 3 I will figure out the rest of that button and will make finishing touches to the app and decide if any other features are needed. 
 
-<img src='ProjCapstoneSprint2Walkthrough.gif' title='Proj Capstone Sprint 2 Walkthrough gif' height='600' width='300' alt='Video Walkthrough' />
+<img src='ProjCapstoneSprint2Walkthrough.gif' title='Proj Capstone Sprint 2 Walkthrough gif' height='650' width='300' alt='Video Walkthrough' />
 
 ### Sprint 3
 -Clean up app and make finishing touches
 
 Made some finishing touches on the app and finished the dropdown button that allows users to select the type of shot for entries. Some parts of code were refactored for efficiency. At this point the app is functionally in form as the minimum viable product. I would like to add more in the future, both with funcionality and the user interface. At this point the main ability for a user to store entries and see stats about them is complete, which was the goal for the three sprints to begin this project. At this point I can also reflect how far I feel that I have come in iOS development. Ten weeks ago I knew nothing about iOS development. Now, I'm able to build a functioning app and have an understanding of why each component works the way it does!
 
-<img src='ProjCapstoneSprint3Walkthrough.gif' title='Proj Capstone Sprint 3 Walkthrough gif' height='600' width='300' alt='Video Walkthrough' />
+<img src='ProjCapstoneSprint3Walkthrough.gif' title='Proj Capstone Sprint 3 Walkthrough gif' height='650' width='300' alt='Video Walkthrough' />
